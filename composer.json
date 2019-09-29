@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/didyouknow",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Didyouknow\\Providers\\DidyouknowServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Didyouknow\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Didyouknow",
+    "alias": "didyouknow",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Didyouknow\\Providers\\DidyouknowServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
