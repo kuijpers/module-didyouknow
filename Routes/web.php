@@ -12,5 +12,5 @@
 */
 
 Route::prefix('didyouknow')->group(function() {
-    Route::get('/', 'DidyouknowController@index');
+    Route::get('/', 'DidyouknowController@index')->name('main.didyouknow');
 });
